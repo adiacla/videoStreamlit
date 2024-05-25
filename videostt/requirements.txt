@@ -1,8 +1,9 @@
-opencv-python-headless
-streamlit
-streamlit-webrtc
-av
-deepspeech
-numpy
-pydub
-twilio
+av==9.2.0
+numpy==1.23.5
+pydub==0.25.1
+streamlit==1.12.0
+streamlit-webrtc==0.35.0
+twilio==7.18.0
+torch==1.11.0
+transformers==4.19.4
+scipy==1.9.0
