@@ -4,7 +4,9 @@ streamlit
 streamlit-webrtc
     
 pip install -U streamlit streamlit-webrtc opencv-python-headless
-    
+pip install av
+
+ERROR EN PC CON WINDOWS 11
 """
 
 import streamlit as st
@@ -12,13 +14,13 @@ from streamlit_webrtc import webrtc_streamer
 import av
 import cv2
 
-st.title("My first Streamlit app")
-st.write("Hello, world")
+st.title("Ejemplo video en Streaming usando Streamlit-webrtc")
+st.write("Alfredo Diaz")
 
 
 class VideoProcessor:
     def __init__(self) -> None:
-        self.threshold1 = 100
+        self.threshold1 = 200
         self.threshold2 = 200
 
     def recv(self, frame):
