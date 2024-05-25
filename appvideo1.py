@@ -7,6 +7,12 @@ pip install -U streamlit streamlit-webrtc opencv-python-headless
 pip install av
 
 ERROR EN PC CON WINDOWS 11
+https://www.whitphx.info/posts/20211231-streamlit-webrtc-video-app-tutorial/
+
+opencv-python-headless
+streamlit
+streamlit-webrtc
+av
 """
 
 import streamlit as st
